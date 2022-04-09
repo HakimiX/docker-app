@@ -1,2 +1,6 @@
+# ignore IDE
 .idea
 .vscode
+
+# ignore node_modules recursively (in all dirs)
+**/node_modules
