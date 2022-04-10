@@ -9,8 +9,7 @@ node {
 
    stage('test') {
      nodejs(nodeJSInstallationName: 'nodejs') {
-       sh 'npm cache clean --force'
-       sh 'npm install --only=dev'
+       sh 'npm install'
        sh 'npm test'
      }
    }
